@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding:0;
+    font-family: arial;
+    font-size: 14px;
+    color: #282828;
+}
+
+a {
+    text-decoration: none;
+    color: #282828;
+}
+
+header {
+    background: #eee;
+}
+
+header, .container {
+    padding: 20px;
+}
+
+nav ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 5px;
+}
+
+nav a.active {
+    font-weight: bold;
+}
